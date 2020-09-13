@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D6906A18250EB7A100E45C15 /* test0001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test0001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6906A18250EB7A100E45C15 /* FunnyButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6906A1B250EB7A200E45C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6906A1D250EB7A200E45C15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D6906A1F250EB7A200E45C15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		D6906A19250EB7A100E45C15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D6906A18250EB7A100E45C15 /* test0001.app */,
+				D6906A18250EB7A100E45C15 /* FunnyButton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D6906A17250EB7A100E45C15 /* test0001 */ = {
+		D6906A17250EB7A100E45C15 /* FunnyButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6906A2C250EB7A300E45C15 /* Build configuration list for PBXNativeTarget "test0001" */;
+			buildConfigurationList = D6906A2C250EB7A300E45C15 /* Build configuration list for PBXNativeTarget "FunnyButton" */;
 			buildPhases = (
 				D6906A14250EB7A100E45C15 /* Sources */,
 				D6906A15250EB7A100E45C15 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = test0001;
+			name = FunnyButton;
 			productName = test0001;
-			productReference = D6906A18250EB7A100E45C15 /* test0001.app */;
+			productReference = D6906A18250EB7A100E45C15 /* FunnyButton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D6906A13250EB7A100E45C15 /* Build configuration list for PBXProject "test0001" */;
+			buildConfigurationList = D6906A13250EB7A100E45C15 /* Build configuration list for PBXProject "FunnyButton" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6906A17250EB7A100E45C15 /* test0001 */,
+				D6906A17250EB7A100E45C15 /* FunnyButton */,
 			);
 		};
 /* End PBXProject section */
@@ -289,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74TF435Y35;
 				INFOPLIST_FILE = test0001/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74TF435Y35;
 				INFOPLIST_FILE = test0001/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D6906A13250EB7A100E45C15 /* Build configuration list for PBXProject "test0001" */ = {
+		D6906A13250EB7A100E45C15 /* Build configuration list for PBXProject "FunnyButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6906A2A250EB7A300E45C15 /* Debug */,
@@ -331,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6906A2C250EB7A300E45C15 /* Build configuration list for PBXNativeTarget "test0001" */ = {
+		D6906A2C250EB7A300E45C15 /* Build configuration list for PBXNativeTarget "FunnyButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6906A2D250EB7A300E45C15 /* Debug */,
