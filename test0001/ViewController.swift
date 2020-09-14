@@ -9,10 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    @IBOutlet weak var label: UILabel!
+        
+    @IBOutlet weak var field1: UILabel!
+    @IBOutlet weak var field: UITextField!
+
+
+    @IBAction func asd(_ sender: UIButton) {
+        field1.text = "Поздравляем!"
+        label.text = "Ты без COVID!"
     }
+    
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view.
+//    }
 
 
 }
